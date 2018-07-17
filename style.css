@@ -1,0 +1,42 @@
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(4, 97, 97);
+    color: white;
+    text-align: center;
+}
+.button {
+    background-color: rgb(199, 199, 199);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+}
+.img{
+    float: left;
+}
+.body{
+    background-color: cadetblue
+}
+@media(max-width: 980px)
+{body{
+    background-color: rgb(190, 223, 252)
+}
+}
+@media(max-width: 768px)
+{body{
+    background-color: rgb(109, 172, 228)
+}
+}
+@media(max-width: 640px)
+{body{
+    background-color: rgb(76, 105, 131)
+}
+}
